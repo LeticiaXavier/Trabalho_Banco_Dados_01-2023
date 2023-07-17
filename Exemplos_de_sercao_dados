@@ -1,0 +1,20 @@
+INSERT INTO Estudantes (id_estudante, nome, email, matricula, curso, senha)
+VALUES (1, 'João', 'joao@example.com', '20220001', 'Engenharia', 'senha123');
+
+INSERT INTO Professores (id_professor, nome, departamento_id)
+VALUES (1, 'Prof. Silva', 1);
+
+INSERT INTO Disciplinas (id_disciplina, nome, departamento_id)
+VALUES (1, 'Matemática', 1);
+
+INSERT INTO Turmas (id_turma, disciplina_id, professor_id)
+VALUES (1, 1, 1);
+
+INSERT INTO Departamentos (id_departamento, nome)
+VALUES (1, 'Ciências Exatas');
+
+INSERT INTO Avaliacoes (id_avaliacao, estudante_id, turma_id, comentario, nota)
+VALUES (1, 1, 1, 'Ótimo professor!', 5);
+
+INSERT INTO Denuncias (id_denuncia, estudante_id, avaliacao_id, motivo, status)
+VALUES (1, 1, 1, 'Comentário ofensivo', 'Pendente');
