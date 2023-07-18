@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.top-bar {
+  background-color:#133E79;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.top-bar img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.bar-content {
+  flex-grow: 1;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+.login{
+	width: 100vw;
+	height: 100vh;
+	background: #FFFFFF;
+}
+
+.login img{
+  width: 810px;
+  height: 510px;
+  margin:100px 50px; 
+  margin-right: 50px;
+  padding: 100px;
+  float: left; 
+  overflow: hidden;
+  margin-bottom: 20px;
+  max-width: 100%;	
+}
+
+/*.form-login{
+	padding: 10px;
+	flex-grow: 1;
+	font-size: 16px;
+    margin-top: -10px;
+	max-width: 100%;
+	color: #133E79;
+}*/
+
+
+
+.form-login{
+	width: 100vw;
+	height: 100vh;
+	padding: 250px;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	flex-grow: 1;
+	font-size: 16px;
+  margin-top: -10px;
+	max-width: 100%;
+  
+}
+.email{
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid; /* Define uma borda sólida */
+  border-color:#133E79; /* Define a cor da borda como vermelho */
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  margin-bottom: 20px; /* Adiciona um espaçamento inferior entre os campos de input */
+}
+.senha{
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid; /* Define uma borda sólida */
+  border-color: #133E79; /* Define a cor da borda como vermelho */
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  margin-bottom: 20px; /* Adiciona um espaçamento inferior entre os campos de input */
+}
+.button-login {
+  width: 100px;
+  padding: 16px 0px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #133E79;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

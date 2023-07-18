@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/cadastro.css')}}">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <img src="{{url_for('static',filename='assets/unb.logo.svg')}}" alt="Logo">
+        <div class="bar-content">
+            <h1>Sistema de Avaliação de Disciplinas e Professores da UnB</h1>
+        </div>
+    </div>
+    <div class="Sing_Up">
+        <div class="left-img">
+            <img src="{{url_for('static',filename='assets/sing_up.svg')}}">
+        </div>
+
+        <div class="Forms">
+            <form method="POST" action="/cadastro" enctype="multipart/form-data">
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="Nome" placeholder="Insira seu nome">
+                </div>
+
+                <div>
+                    <label>Matrícula</label>
+                    <input type="number" name="Matricula" placeholder="Insira sua matrícula">
+                </div>
+
+                <div>
+                    <label>Curso</label>
+                    <input type="text" name="Curso" placeholder="Insira seu curso">
+                </div>
+
+                <div>
+                    <label>E-mail</label>
+                    <input type="email" name="Email" placeholder="Insira seu email">
+                </div>
+
+                <div>
+                    <label>Senha</label>
+                    <input type="password" name="Senha" placeholder="Insira sua senha">
+                </div>
+
+                <div class="foto-perfil">
+                    <label for="upload-input">
+                        <span>Selecionar foto</span>
+                    </label>
+                    <input id="upload-input" type="file" name="FotoPerfil">
+                </div>
+
+                <div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

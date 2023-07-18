@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+<title>Pagina inicial</title>
+</head>
+<body>
+	
+	<div class="top-bar">
+    <img src="{{url_for('static',filename='assets/unb.logo.svg')}}" alt="Logo">
+    <div class="bar-content">
+      <h1>Sistema de Avaliação de Disciplinas e Professores da UnB</h1>
+    </div>
+    <div class="button-container">
+      <a href="cadastro"><button type="submit", class="separated-button">Cadastrar</button></a><br>
+	  <a href="login"><button type="submit", class="separated-button">Entrar</button></a>
+    </div>
+	</div>
+	
+	
+	
+	<div class="home-page">
+		<div class="left-img1">
+		<img src="{{url_for('static',filename='assets/img1.svg')}}" alt="">
+		<div class="right-text1"> <h1>Bem-vindo ao sistema de avaliação de disciplinas e professores da UnB. <br>
+									 Nosso objetivo é fornecer feedback aos<br>
+									 alunos e professores sobre as disciplinas<br>
+									 e docentes da nossa universidade.</h1>
+	
+		</div>	
+			
+		</div>	
+	</div>
+	
+	<div class="home-page">
+		<div class="left-img2">
+		<img src="{{url_for('static',filename='assets/img2.svg')}}" alt="">
+		<div class="right-text2"> <h1>Aqui, você pode avaliar seus professores e <br>
+								     também escrever uma resenha sobre a disciplina <br>
+									 que você cursou. Além disso, é possível analisar <br>
+                                     as resenhas de outros alunos sobre a matéria <br>
+                                     que você pretende cursar no próximo semestre, <br>
+                                     assim como verificar as avaliações <br>
+                                     sobre determinado professor. </h1>
+	
+		</div>	
+			
+		</div>	
+	</div>
+	
+	
+	
+
+	
+</body>
+</html>
