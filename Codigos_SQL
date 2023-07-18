@@ -56,3 +56,10 @@ CREATE TABLE Denuncias (
   FOREIGN KEY (avaliacao_id) REFERENCES Avaliacoes(id_avaliacao)
 );
 
+CREATE TABLE DadosBinarios (
+  id INT PRIMARY KEY,
+  dados BLOB
+);
+
+INSERT INTO DadosBinarios (id, dados)
+VALUES (1, CAST('01010101' AS BLOB));
